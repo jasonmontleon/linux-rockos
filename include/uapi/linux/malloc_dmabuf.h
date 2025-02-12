@@ -21,6 +21,8 @@
  *
  */
 
+typedef _Bool bool;
+
 #ifndef ES_DMA_MALLOC_DMABUF_H
 #define ES_DMA_MALLOC_DMABUF_H
 

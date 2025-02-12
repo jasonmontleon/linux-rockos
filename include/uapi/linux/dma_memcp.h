@@ -21,6 +21,9 @@
  *          Yuyang Cong <congyuyang@eswincomputing.com>
  */
 
+typedef long unsigned int    __kernel_size_t;
+typedef __kernel_size_t         size_t;
+
 #ifndef ES_DMA_MEMCP_H
 #define ES_DMA_MEMCP_H
 

@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note
+/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
 /*
  * ESWIN MMZ VB user state api header.
  *
@@ -36,6 +36,10 @@ typedef char ES_CHAR;
 #define ES_VB_MAX_MOD_POOL	16
 
 #define ES_MAX_MMZ_NAME_LEN	64
+
+typedef char ES_CHAR;
+typedef unsigned int ES_U32;
+typedef unsigned long long ES_U64;
 
 /**
  * numa id encoding definitions
