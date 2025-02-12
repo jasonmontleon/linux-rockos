@@ -7,3 +7,4 @@ source "drivers/media/platform/eswin/isp/Kconfig"
 config EIC7700_EVB_VI
     bool "ESWIN EVB Board Support"
     default n
+
