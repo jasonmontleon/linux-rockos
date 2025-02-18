@@ -51,7 +51,7 @@
 					type = "passive";
 				};
 				crit: trip-point2 {
-					temperature     = <105000>;
+					temperature     = <85000>;
 					hysteresis      = <0>;
 					type            = "critical";
 				};
