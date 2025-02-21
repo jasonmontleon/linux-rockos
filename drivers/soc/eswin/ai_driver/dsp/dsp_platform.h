@@ -31,11 +31,15 @@ int es_dsp_reboot_core(struct es_dsp_hw *);
 int es_dsp_enable(struct es_dsp_hw *);
 void es_dsp_disable(struct es_dsp_hw *);
 int es_dsp_set_rate(struct es_dsp_hw *, unsigned long *rate);
+int es_dsp_get_rate(struct es_dsp_hw *hw);
 void es_dsp_reset(struct es_dsp_hw *);
 void es_dsp_halt(struct es_dsp_hw *);
 void es_dsp_release(struct es_dsp_hw *);
 int es_dsp_sync(struct es_dsp *dsp);
 int es_dsp_load_op(struct es_dsp_hw *, void *op_ptr);
+int es_dsp_map_resource(struct es_dsp *dsp);
+int es_dsp_unmap_resource(struct es_dsp *dsp);
+void es_dsp_put_subsys(struct es_dsp *dsp);
 
 int es_dsp_platform_init(void);
 int es_dsp_platform_uninit(void);

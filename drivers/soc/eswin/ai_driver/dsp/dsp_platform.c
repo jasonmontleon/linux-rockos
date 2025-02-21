@@ -39,6 +39,7 @@
 #include <linux/slab.h>
 #include <linux/iommu.h>
 #include <linux/es_iommu_rsv.h>
+#include <linux/clk-provider.h>
 #include "eswin-dsp-subsys.h"
 
 #include "dsp_platform.h"
