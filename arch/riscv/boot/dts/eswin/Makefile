@@ -9,6 +9,9 @@ dtb-$(CONFIG_SOC_ESWIN) += eswin-win2030.dtb \
                                                         eic7700-milkv-megrez.dtb \
                                                         eic7700-milkv-megrez-nx.dtb \
                                                         eic7700-pine64-starpro64.dtb \
+							eic7700-hifive-premier-p550-npu.dtb \
+							eic7700-milkv-megrez-npu.dtb \
+							eic7700-pine64-starpro64-npu.dtb \
 							eic7702-evb-a1-d0.dtb \
 							eic7702-evb-a1-d1.dtb \
 							eic7702-evb-a1.dtb\
