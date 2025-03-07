@@ -64,6 +64,7 @@ int dsp_get_resource(struct platform_device *pdev, struct es_dsp *dsp);
 int dsp_put_resource(struct es_dsp *dsp);
 
 int es_dsp_get_subsys(struct platform_device *pdev, struct es_dsp *dsp);
+void es_dsp_put_subsys(struct es_dsp *dsp);
 void dsp_free_hw(struct es_dsp *dsp);
 int dsp_alloc_hw(struct platform_device *pdev, struct es_dsp *dsp);
 int dsp_enable_irq(struct es_dsp *dsp);
@@ -72,4 +73,6 @@ void dsp_disable_mbox_clock(struct es_dsp *dsp);
 int dsp_enable_mbox_clock(struct es_dsp *dsp);
 int wait_for_current_tsk_done(struct es_dsp *dsp);
 
+int es_dsp_map_resource(struct es_dsp *dsp);
+int es_dsp_unmap_resource(struct es_dsp *dsp);
 #endif
